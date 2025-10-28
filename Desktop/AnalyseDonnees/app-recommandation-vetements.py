@@ -1,9 +1,6 @@
 """
 Système de recommandation de vêtements (K-Means) avec interface PyQt5
 
-Usage:
-  python recommender_kmeans_pyqt.py
-
 Pré-requis (installer via pip):
   pip install pandas scikit-learn matplotlib pyqt5 openpyxl
 
