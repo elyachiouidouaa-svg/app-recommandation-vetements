@@ -48,6 +48,8 @@ Colonnes droite : tableau des recommandations et graphique PCA des clusters.
 
 5- Cliquer sur Recommander pour afficher les vêtements les plus proches de vos préférences.
 
+6- Visualiser les clusters et les recommandations sur le graphique PCA 2D.
+
 
 ## Fonctionnalités principales :
 
@@ -70,17 +72,26 @@ recommend() : générer les recommandations basées sur les préférences utilis
 
 <img width="482" height="329" alt="image" src="https://github.com/user-attachments/assets/1855d0f3-7cdc-419d-bf3f-1f394eb6055f" />
 
+## Exemple d’utilisation
+1. Charger un fichier Excel
+Cliquez sur “Charger Excel” et sélectionnez votre fichier.
+Les colonnes numériques détectées apparaissent automatiquement dans la liste déroulante.
 
+2. Paramétrer K-Means
+Sélectionnez le nombre de clusters (k) et le max d’itérations. (k=4,maxitérations=300)
+Cliquez sur “Exécuter K-Means” pour générer les clusters.
 
+<img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/7e7e9c13-3e7d-462c-a218-f26a1a013209" />
 
+3. Ajouter vos préférences utilisateur
+Saisissez vos valeurs pour les caractéristiques (ex. Price, Size, MaterialQuality, Comfort, StyleScore, Rating).
 
+<img width="317" height="197" alt="image" src="https://github.com/user-attachments/assets/2afd89c1-1f87-4bee-9a66-9b02dc96e091" />
 
+4. Générer les recommandations
+Cliquez sur “Recommander”.
+Les meilleurs vêtements correspondant à vos préférences apparaissent dans le tableau.
+Les points recommandés sont également mis en évidence dans le graphique PCA des clusters.
 
+<img width="959" height="490" alt="image" src="https://github.com/user-attachments/assets/8e69ef51-2d7d-42d7-9017-5c288449847f" />
 
-
-
-
-
-
-
-Visualiser les clusters et les recommandations sur le graphique PCA 2D.
